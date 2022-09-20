@@ -20,9 +20,9 @@ void print_number(int n)
 			_putchar('-');
 		}
 
-		 while (t_beg <= positive) 
-			 t_beg *= 10;
-		 tens = t_beg / 10;
+		while (t_beg <= positive)
+			t_beg *= 10;
+		tens = t_beg / 10;
 
 		while (tens >= 1)
 		{
